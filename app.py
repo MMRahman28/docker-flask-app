@@ -5,8 +5,8 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
 	return """
-	<h1>Hello from Kubernetes!</h1>
-	<p>Your Python Flask app is successfully running inside a Kubernetes Pod.</p>
+	<h1>Flask app!</h1>
+	<p>Your Python Flask app is successfully running inside a docker container.</p>
 	<p>This page is being served by Flask on port 80</p>
 	"""
 if __name__ == '__main__':
